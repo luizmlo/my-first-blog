@@ -1,38 +1,46 @@
 {% load staticfiles %}
 <html>
-    <head>
-        <title>LuizMlo</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    </head>
-    <body>
-        <div>
-            <h1><a href="">Arthur, </a></h1>
-        </div>
+<head>
+    <title>LuizMlo</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+<div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur eius eligendi in natus odit officia
+        optio quia rem reprehenderit! Assumenda dolorem facilis, fuga illo incidunt itaque quia quis saepe.</p>
+    <p><a class="btn btn-primary btn-lg" href="admin" role="button">Admin Control Panel</a></p>
+</div>
+<div>
+    <h1><a href="">Arthur, </a></h1>
+</div>
 
-        <div>
-            <p>Infelizmente meu site tá tipo</p>
-            <h2><a href=""><strong>MUITO</strong></a></h2>
-            <p>Melhor que o seu!</p>
-        </div>
+<div id="mmqos">
+    <p>Infeliz mente meu site tá tipo</p>
+    <h2><a href=""><strong>MUITO</strong></a></h2>
+    <p>Melhor que o seu!</p>
+</div>
 
-        <div>
-            <p><strong>PS:<br />Não foi ele que escreveu</strong></p>
-            <h2><a href=""></a></h2>
-            <p><strong>KAAKAKAKAKAKAKAKAKAKAKAKAKAKAKAK</strong></p>
-        </div>
-        <div>
-            <h3>
-                <p>Lembrando²:</p>
-            </h3>
-            <p>Um passarinho me contou que vc é um mala :p</p>
-        </div>
+<div>
+    <p><strong>PS:<br/>Não foi ele que escreveu</strong></p>
+    <h2><a href=""></a></h2>
+    <p><strong>KAAKAKAKAKAKAKAKAKAKAKAKAKAKAKAK</strong></p>
+</div>
+<div>
+    <h3>
+        <p>Lembrando²:</p>
+    </h3>
+    <p>Um passarinho me contou que vc é um mala :p</p>
+</div>
 
-        <img src="https://cdn.discordapp.com/attachments/267147692042354688/331882894916059136/retardado.png"><br /><br /><br />
+<img src="https://cdn.discordapp.com/attachments/267147692042354688/331882894916059136/retardado.png"><br/><br/><br/>
 
-        {% for post in posts %}
-            {{ post }}<br />
-        {% endfor %}
-    </body>
+<div class="alert alert-success" role="alert">Oui!</div>
+<div class="alert alert-info" role="alert">The bomb has been planted!</div>
+<div class="alert alert-warning" role="alert">Warning, Weeabos incoming!</div>
+<div class="alert alert-danger" role="alert">Danger SUGOIII!!</div>
+</body>
 </html>
