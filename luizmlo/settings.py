@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1',
     'localhost',
+    'luizmlo.pythonanywhere.com'
     '192.168.0.153',
 ]
 
