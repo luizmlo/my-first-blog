@@ -23,3 +23,21 @@ h1 {
     width: 25%;
     height: 50%;
 }
+
+#areaPosts {
+    font-size: 30px;
+    background-color: #757575;
+    color: 000;
+    }
+
+#tituloPosts {
+    color FFF;
+    font-size: 50px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: #212121;
+    background-color: #212121;
+}
