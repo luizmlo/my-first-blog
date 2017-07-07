@@ -9,52 +9,22 @@
 </head>
 <body>
 <div class="jumbotron">
-    <h1>Hello, world!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur eius eligendi in natus odit officia
-        optio quia rem reprehenderit! Assumenda dolorem facilis, fuga illo incidunt itaque quia quis saepe.</p>
-    <p><a class="btn btn-primary btn-lg" href="admin" role="button">Admin Control Panel</a></p>
-</div>
-<div>
-    <h1><a href="">Arthur, </a></h1>
-</div>
-
-<div id="mmqos">
-    <p>Infeliz mente meu site tá tipo</p>
-    <h2><a href=""><strong>MUITO</strong></a></h2>
-    <p>Melhor que o seu!</p>
+    <h1>Welcome to the mlo's Riddle!</h1>
+    <p>This riddle is *Very Simple*, you have to gather info from everything the statement gives to you.<br/>
+        When you think you have the key, type it after the "/" in the url.<br/>
+        Example: loremipsum.com/potato-starch | Where "Potato-Starch" Is the key<br/>
+        * - It's not
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="1" role="button">Start Riddle</a></p>
 </div>
 
-<div>
-    <p><strong>PS:<br/>Não foi ele que escreveu</strong></p>
-    <h2><a href=""></a></h2>
-    <p><strong>KAAKAKAKAKAKAKAKAKAKAKAKAKAKAKAK</strong></p>
+<div class="alert alert-danger" role="alert">Warning! You may start <strong>banging</strong> your head at the walls after trying some
+    times, give yourself a rest!
 </div>
-<div>
-    <h3>
-        <p>Lembrando²:</p>
-    </h3>
-    <p>Um passarinho me contou que vc é um mala :p</p>
+<div class="alert alert-success" role="alert">This riddle goes really well with the biggest cup of coffee you cant get
+    :p
 </div>
 
-<br />
-
-<div class="alert alert-success" role="alert">Oui!</div>
-<div class="alert alert-info" role="alert">The bomb has been planted!</div>
-<div class="alert alert-warning" role="alert">Warning, Weeabos incoming!</div>
-<div class="alert alert-danger" role="alert">Danger SUGOIII!!</div>
-
-<div id="areaPosts">
-{% for post in posts %}
-
-        <div>
-            <hr />
-            <h1 id="tituloPosts"><a href="">{{ post.title }}</a></h1>
-            <p>{{ post.text|linebreaksbr }}</p>
-            <br />
-        </div>
-
-{% endfor %}
-</div>
 
 </body>
 </html>
