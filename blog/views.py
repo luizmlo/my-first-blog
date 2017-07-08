@@ -35,3 +35,12 @@ def rid_9(request):
 
 def rid_10(request):
     return render(request, 'blog/rid_10.html')
+
+def rid_final(request):
+    return render(request, 'blog/rid_final.html')
+
+def retarded(request):
+    return render(request, 'blog/retarded.html')
+
+def second_stage(request):
+    return render(request, 'blog/second_stage.html')
