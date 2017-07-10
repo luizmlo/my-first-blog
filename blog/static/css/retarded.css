@@ -1,4 +1,16 @@
 body {
     background-image: url("retarded.png");
     background-size: 100%;
+    font-family: 'Poiret One', cursive;
+    margin: 25px;
+    color: #039BE5;
+    background-color: #424242;
+}
+
+h1 {
+    color: #3F51B5;
+}
+
+.jumbotron {
+    background-color: #757575;
 }
